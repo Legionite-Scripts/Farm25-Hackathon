@@ -17,7 +17,7 @@
         required
       />
       <button class="pr-4 pl-4 pt-1 pb-1 mb-2" @click="handleLogin">
-        Submit
+        Login
       </button>
       <p>{{ store.email }}</p>
       <p>{{ store.password }}</p>
@@ -26,25 +26,43 @@
 </template>
 <script setup>
 import { ref } from "vue";
+import { useRouter } from "vue-router";
 import { useDetailStore } from "@/stores/userStore";
 const store = useDetailStore();
 
 const emailInput = ref(null);
+const passwordInput = ref(null);
 
 const handleLogin = () => {
   const trimmedEmail = emailInput.value.value.trim();
+  const trimmedPassword = passwordInput.value.value.trim();
 
+  //Email Validation
   if (trimmedEmail === store.email) {
     alert("Email Matches"); // More informative message
     console.log("store.email:", store.email);
     console.log("trimmedEmail:", trimmedEmail);
   } else {
     // Implement login logic here (e.g., API call, authentication)
-    console.log("Email doesn't match");
-
+    alert("Email doesn't match");
+    
     console.log("store.email:", store.email);
     console.log("trimmedEmail:", trimmedEmail);
   }
+  //Password Validation
+  if (trimmedPassword === store.password) {
+    alert("Password Matches"); // More informative message
+    console.log("store.password:", store.password);
+    console.log("trimmedPassword:", trimmedPassword);
+  } else {
+    // Implement login logic here (e.g., API call, authentication)
+    alert("Password doesn't match");
+    
+    console.log("store.password:", store.password);
+    console.log("trimmedPassword:", trimmedPassword);
+  }
+  router.push("/home");
+
 };
 </script>
 
@@ -53,7 +71,6 @@ const handleLogin = () => {
   overflow: none !important;
 }
 div {
-  border: 1px solid #333;
   height: 100vh;
 }
 form {
