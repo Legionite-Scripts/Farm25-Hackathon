@@ -26,8 +26,8 @@ nav {
   flex-direction: row;
   justify-content: space-between;
 }
-nav > h1{
-    color: #0e4310;
+nav > h1 {
+  color: #0e4310;
 }
 .links {
   display: flex;
@@ -66,7 +66,8 @@ nav > h1{
   nav {
     flex-direction: column;
   }
-  .links,.buttons{
+  .links,
+  .buttons {
     flex-direction: column;
     gap: 1em;
   }
