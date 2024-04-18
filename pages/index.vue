@@ -1,18 +1,15 @@
 <template>
   <div>
-    <register />
-    <!-- <login /> -->
+    <Home/>
   </div>
 </template>
 
 <script>
-import register from "./register";
-import login from "./login";
+import Home from "./Home.vue";
 
 export default {
   components: {
-    register,
-    login,
+    Home
   },
 };
 </script>
