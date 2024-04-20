@@ -1,5 +1,5 @@
 <template>
-  <nav class="p-2 center">
+  <nav class="p-2 pr-5 pl-5 center">
     <h1>Agri-Yum</h1>
 
     <div class="links center">
@@ -28,6 +28,7 @@ nav {
 }
 nav > h1 {
   color: #0e4310;
+  font-size: 40px;
 }
 .links {
   display: flex;
@@ -46,7 +47,7 @@ nav > h1 {
 .buttons {
   display: flex;
   flex-direction: row;
-  gap: 1em;
+  gap: 0.5em;
 }
 .buttons button {
   height: 4em;

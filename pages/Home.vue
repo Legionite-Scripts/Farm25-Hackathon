@@ -1,39 +1,153 @@
 <template>
-  <section class="wrapper pr-5 pl-5 p-2">
-    <Navbar class="mb-5" />
-    <div class="search">
-      <input type="search" placeholder="Search" />
-      <button class="pr-3 pl-3">Go</button>
-    </div>
-
-    <!-- Background -->
-    <div class="background mt-5 mb-5 p-5">
-      <h1 class="mb-5 mt-5">
-        Innovative<br />
-        Consumable
-      </h1>
-      <p class="mb-5">
-        We turn agricultural products into delicious and nutritious finished
-        goods Explore Products
-      </p>
-      <button class="text-center p-1 pr-2 pl-2">
-        Explore Products&nbsp;
-        <img src="@/assets/images/Home/arrow-narrow-right.png" alt="Right" />
-      </button>
-    </div>
-
-    <!-- Products -->
-    <div class="products center">
-      <h2 class="mb-2">Products</h2>
-
-      <div>
-        <Product/>
+  <NuxtLayout name="main">
+    <section class="wrapper pr-5 pl-5 p-2">
+      <div class="search">
+        <input type="search" placeholder="Search" />
+        <button class="pr-3 pl-3">Go</button>
       </div>
-    </div>
-  </section>
+
+      <!-- Background -->
+      <div class="background mt-5 mb-5 p-5">
+        <h1 class="mb-5 mt-5">
+          Innovative<br />
+          Consumable
+        </h1>
+        <p class="mb-5">
+          We turn agricultural products into delicious and nutritious finished
+          goods Explore Products
+        </p>
+        <button class="text-center p-1 pr-2 pl-2">
+          Explore Products&nbsp;
+          <img src="@/assets/images/Home/arrow-narrow-right.png" alt="Right" />
+        </button>
+      </div>
+
+      <!-- Products -->
+      <div class="products">
+        <h1 class="mb-3 left">Top Selling Products</h1>
+
+        <div>
+          <Product v-for="n in 12" :key="n" />
+        </div>
+      </div>
+
+      <!-- Why Choose Us -->
+      <div class="why center mb-5">
+        <h1 class="mb-3">Why Choose Us?</h1>
+        <p class="mb-2">
+          At <b>AGRI-YUM</b>, we're passionate about transforming farm-fresh
+          produce into delicious and convenient finished goods. But we're more
+          than just food innovators – we're bridge builders. We connect the
+          dedication of rural and urban farmers with the needs of discerning
+          consumers like you.
+        </p>
+
+        <img src="@/assets/images/Home/why.png" alt="Background" class="mb-5" />
+
+        <div>
+          <p class="mb-1">
+            <b> From Farm to Shelf, with Freshness You Can Taste:</b><br />
+            We source our ingredients directly from rural farmers who prioritize
+            sustainable and responsible agricultural practices. This means you
+            get the freshest produce, packed with nutrients and flavor.
+          </p>
+
+          <p class="mb-1">
+            <b>The Power of Agritech:</b><br />
+            We harness the power of innovative technology to transform these raw
+            ingredients into delicious and convenient finished goods. This
+            translates to less waste, longer shelf life, and a wider variety of
+            healthy options for you.
+          </p>
+
+          <p class="mb-1">
+            <b>Bridging the Gap Between Farm and Table:</b><br />
+            Convenience for Busy Lives: We transform farm-fresh ingredients into
+            convenient finished goods that fit seamlessly into your busy
+            lifestyle. Enjoy the taste of fresh, healthy food without the
+            hassle.
+          </p>
+
+          <p>
+            <b>Delicious & Nutritious:</b><br />
+            We don't compromise on taste. Our finished goods are not only good
+            for you, but they're also incredibly flavorful and satisfying.
+            Explore our wide variety of products and discover new ways to
+            incorporate healthy options into your meals.<br /><br />
+            Join us on this journey! By choosing AGRI-YUM, you're not just
+            buying delicious food; you're investing in a future where
+            sustainable agriculture thrives and communities connect through the
+            power of innovative food solutions.
+          </p>
+        </div>
+      </div>
+
+      <!-- What our customers say -->
+      <div class="what center mb-5 p-2">
+        <h1 class="mb-4 mt-2">What our customers say</h1>
+
+        <section class="center mb-3">
+          <div>
+            <h2 class="mb-1">Love the Conveninence</h2>
+            <p class="mb-1">
+              Love the convenience! Agri-Yum's products are a lifesaver for busy
+              days. They're healthy, taste amazing, and I can whip up a<br />
+              nutritious meal in minutes. Plus, knowing I'm supporting local
+              farmers makes it even better.
+            </p>
+            <b> <i>Legionite~Scripts</i></b>
+          </div>
+
+          <img src="@/assets/images/Home/Me.png" alt="Hero" />
+        </section>
+
+        <section class="center">
+          <div>
+            <h2 class="mb-1">
+              Finally, Healthy food that actually tastes good!
+            </h2>
+            <p class="mb-1">
+              I used to struggle to find healthy snacks that weren't loaded with
+              processed ingredients.<br />
+              Agri-Yum's products are a game-changer. They're packed with flavor
+              and perfect for satisfying cravings without the guilt.
+            </p>
+            <b> <i>Marv Magic</i></b>
+          </div>
+
+          <img src="@/assets/images/Home/mrMarv.png" alt="Hero" />
+        </section>
+      </div>
+
+      <!-- Blog -->
+      <div class="blog center">
+        <h1>Blog</h1>
+        <div>
+          <p class="mb-2">
+            <b>From Field to Fork: How Agrictech is Revolutionizing Food</b>
+          </p>
+          <p>
+            The food on your plate has a story. It starts with a seed sown in
+            fertile soil, nurtured by sunshine and rain, and tended to by
+            dedicated farmers. But what happens between the field and your fork?
+            This is where Agrictech comes in, playing a transformative role in
+            the journey of our food...
+          </p>
+        </div>
+      </div>
+    </section>
+  </NuxtLayout>
 </template>
 
-<script></script>
+<script>
+import Product from "@/components/Product.vue";
+
+export default {
+  components: {
+    Product,
+  },
+};
+</script>
 
 <style scoped>
 .wrapper {
@@ -57,7 +171,6 @@
   height: 3em;
   background-color: #375e37;
   color: #ffffff;
-  border: none;
   border-radius: 4px;
 }
 
@@ -80,23 +193,64 @@
 .background > button {
   background-color: #327a30;
   border-radius: 4px;
-  border: none;
   color: #ffffff;
   font-size: 1.1em;
   display: flex;
   align-items: center;
 }
 /*  */
-.products {
-  border: 1px solid #333;
-}
-.products > div{
-  border: 1px solid red;
+
+.products > div {
   width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
+/* Why */
+.why > img {
+  width: 100%;
+}
+.why > div {
+  width: 100%;
+}
+/*  */
+
+/* What our customers say */
+.what {
+  background-color: #c8cdc6;
+}
+.what > section {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 3em;
+}
+
+.what > section:last-child {
+  flex-direction: row-reverse;
+}
+.what > section > img {
+  width: 25em !important;
+  border-radius: 50%;
+  border: 100px dashed #327a30;
+  -webkit-user-drag: none;
+}
+/*  */
+
+/* Blog */
+.blog {
+  height: 50vh;
+}
+.blog p {
+  font-size: 1.5em;
+}
+/*  */
+
 /* Screens lower than 1000px */
-@media (max-width: 1000px) {
+@media (max-width: 767px) {
   .wrapper {
     padding: 20px;
   }
@@ -106,6 +260,26 @@
   }
   .background > h1 {
     font-size: 3em;
+  }
+  .products > div {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .what > section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5em;
+  }
+  .what > section > img {
+    width: 90% !important;
+    border-radius: 50%;
+  }
+  .what > section:last-child {
+    flex-direction: column;
+  }
+  .blog p {
+    font-size: 1em !important;
   }
 }
 </style>

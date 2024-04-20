@@ -8,4 +8,6 @@ export default defineNuxtConfig({
     // Path to your CSS file
     "~/assets/css/main.css",
   ],
+  
+  
 });
