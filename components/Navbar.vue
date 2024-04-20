@@ -25,6 +25,7 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width: 100%;
 }
 nav > h1 {
   color: #0e4310;
