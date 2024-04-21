@@ -46,45 +46,87 @@
           consumers like you.
         </p>
 
-        <img src="@/assets/images/Home/why.png" alt="Background" class="mb-5" />
+        <!-- First Section -->
+        <section class="mb-3">
+          <div class="pt-5">
+            <h2 class="mb-1 mt-5">
+              <b> From Farm to Shelf, with Freshness You Can Taste:</b>
+            </h2>
+            <p class="mb-2">
+              We source our ingredients directly from rural farmers who
+              prioritize sustainable and responsible agricultural practices.<br />
+              This means you get the freshest produce, packed with nutrients and
+              flavor.
+            </p>
+          </div>
+          <img src="@/assets/images/Home/profile-1.png" alt="" />
+        </section>
 
-        <div>
-          <p class="mb-1">
-            <b> From Farm to Shelf, with Freshness You Can Taste:</b><br />
-            We source our ingredients directly from rural farmers who prioritize
-            sustainable and responsible agricultural practices. This means you
-            get the freshest produce, packed with nutrients and flavor.
-          </p>
+        <!-- Second Section -->
+        <section class="two mb-3">
+          <div class="pt-5">
+            <h2 class="mb-1 mt-5">
+              <b> From Farm to Shelf, with Freshness You Can Taste:</b>
+            </h2>
+            <p class="mb-2">
+              We source our ingredients directly from rural farmers who
+              prioritize sustainable and responsible agricultural practices.<br />
+              This means you get the freshest produce, packed with nutrients and
+              flavor.
+            </p>
+          </div>
+          <img src="@/assets/images/Home/why-1.png" alt="" />
+        </section>
 
-          <p class="mb-1">
-            <b>The Power of Agritech:</b><br />
-            We harness the power of innovative technology to transform these raw
-            ingredients into delicious and convenient finished goods. This
-            translates to less waste, longer shelf life, and a wider variety of
-            healthy options for you.
-          </p>
+        <!-- Third Section -->
+        <section class="mb-3">
+          <div class="pt-5">
+            <h2 class="mb-1 mt-5">
+              <b> From Farm to Shelf, with Freshness You Can Taste:</b>
+            </h2>
+            <p class="mb-2">
+              We source our ingredients directly from rural farmers who
+              prioritize sustainable and responsible agricultural practices.<br />
+              This means you get the freshest produce, packed with nutrients and
+              flavor.
+            </p>
+          </div>
+          <img src="@/assets/images/Home/why-2.png" alt="" />
+        </section>
 
-          <p class="mb-1">
-            <b>Bridging the Gap Between Farm and Table:</b><br />
-            Convenience for Busy Lives: We transform farm-fresh ingredients into
-            convenient finished goods that fit seamlessly into your busy
-            lifestyle. Enjoy the taste of fresh, healthy food without the
-            hassle.
-          </p>
+        <!-- Fourth Section -->
+        <section class="four mb-3">
+          <div class="pt-5">
+            <h2 class="mb-1 mt-5">
+              <b> From Farm to Shelf, with Freshness You Can Taste:</b>
+            </h2>
+            <p class="mb-2">
+              We source our ingredients directly from rural farmers who
+              prioritize sustainable and responsible agricultural practices.<br />
+              This means you get the freshest produce, packed with nutrients and
+              flavor.
+            </p>
+          </div>
+          <img src="@/assets/images/Home/why-3.png" alt="" />
+        </section>
 
-          <p>
-            <b>Delicious & Nutritious:</b><br />
-            We don't compromise on taste. Our finished goods are not only good
-            for you, but they're also incredibly flavorful and satisfying.
-            Explore our wide variety of products and discover new ways to
-            incorporate healthy options into your meals.<br /><br />
-            Join us on this journey! By choosing AGRI-YUM, you're not just
-            buying delicious food; you're investing in a future where
-            sustainable agriculture thrives and communities connect through the
-            power of innovative food solutions.
-          </p>
-        </div>
+        <!-- Fifth Section -->
+        <section class="mb-3">
+          <div class="pt-5">
+            <h2 class="mb-1 mt-5">
+              <b> From Farm to Shelf, with Freshness You Can Taste:</b>
+            </h2>
+            <p class="mb-2">
+              We source our ingredients directly from rural farmers who
+              prioritize sustainable and responsible agricultural practices.<br />
+              This means you get the freshest produce, packed with nutrients and
+              flavor.
+            </p>
+          </div>
+          <img src="@/assets/images/Home/why-4.png" alt="" />
+        </section>
       </div>
+      <!--  -->
 
       <!-- What our customers say -->
       <div class="what center mb-5 p-2">
@@ -194,10 +236,10 @@ export default {
 .background > h1 {
   font-size: 6em;
 }
-.background > a{
+.background > a {
   text-decoration: none;
 }
-.background >a> button {
+.background > a > button {
   background-color: #327a30;
   border-radius: 4px;
   color: #ffffff;
@@ -221,6 +263,23 @@ export default {
 }
 .why > div {
   width: 100%;
+}
+.why > section {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.why > section > div {
+  width: 40%;
+}
+.why > section.two,
+.why > section.four {
+  display: flex;
+  flex-direction: row-reverse !important;
+}
+.why > section > img {
+  width: 50% !important;
 }
 /*  */
 
@@ -287,6 +346,24 @@ export default {
   }
   .blog p {
     font-size: 1em !important;
+  }
+  .why > section {
+    border: 1px solid #333;
+    width: 100%;
+    display: flex;
+    flex-direction: column !important;
+    justify-content: space-between;
+  }
+  .why > section > img {
+    width: 100% !important;
+  }
+  .why > section > div {
+    width: 100%;
+  }
+  .why > section.two,
+  .why > section.four {
+    display: flex;
+    flex-direction: column !important;
   }
 }
 </style>
