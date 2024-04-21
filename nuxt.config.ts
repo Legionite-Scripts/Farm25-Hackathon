@@ -1,4 +1,9 @@
 export default defineNuxtConfig({
+  app: {
+    head: {
+      title: 'Farm-25'
+    }
+  },
   devtools: { enabled: true },
   modules: [
     "@pinia/nuxt",

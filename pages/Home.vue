@@ -16,10 +16,14 @@
           We turn agricultural products into delicious and nutritious finished
           goods Explore Products
         </p>
-        <button class="text-center p-1 pr-2 pl-2">
-          Explore Products&nbsp;
-          <img src="@/assets/images/Home/arrow-narrow-right.png" alt="Right" />
-        </button>
+        <a href="/ProductPage">
+          <button class="text-center p-1 pr-2 pl-2">
+            Explore Products&nbsp;
+            <img
+              src="@/assets/images/Home/arrow-narrow-right.png"
+              alt="Right"
+            /></button
+        ></a>
       </div>
 
       <!-- Products -->
@@ -190,7 +194,10 @@ export default {
 .background > h1 {
   font-size: 6em;
 }
-.background > button {
+.background > a{
+  text-decoration: none;
+}
+.background >a> button {
   background-color: #327a30;
   border-radius: 4px;
   color: #ffffff;

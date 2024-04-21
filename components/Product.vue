@@ -8,7 +8,9 @@
     </div>
 
     <div class="button">
-      <button class="left p-1 pr-5 pl-5">Quick View</button>
+      <a href="/ProductDetail">
+        <button class="left p-1 pr-5 pl-5" id="btnOne">Quick View</button></a
+      >
       <a href="#" class="right">
         <img src="@/assets/images/Home/shopping-cart.png" alt="Item"
       /></a>
@@ -38,7 +40,10 @@
   justify-content: space-between;
   align-items: center;
 }
-.product > div:last-child > button {
+.product > div:last-child > a {
+  text-decoration: none;
+}
+.product > div:last-child > a > button {
   background-color: #85af82;
   color: #ffffff;
   border-radius: 5px;

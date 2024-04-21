@@ -1,15 +1,17 @@
 <template>
   <div>
-    <Home/>
+    <Register/>
   </div>
 </template>
 
 <script>
 import Home from "./Home.vue";
+import Register from "./Register.vue";
 
 export default {
   components: {
-    Home
+    Home,
+    Register
   },
 };
 </script>

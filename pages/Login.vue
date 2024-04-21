@@ -14,7 +14,7 @@
       </div>
 
       <div class="buttons center mb-3">
-        <button class="mb-2 p-1">Sign Up</button>
+        <a href="/Home" class="center p-1 mb-2"> Sign In</a>
         <p class="mb-2">-OR-</p>
         <button class="p-1">
           <img src="@/assets/images/Home/googleIcon.png" alt="" /> Sign in with
@@ -23,7 +23,7 @@
       </div>
 
       <div class="links center">
-        <p class="mb-2">Don't have an account?  <a href="#">Sign Up</a></p>
+        <p class="mb-2">Don't have an account? <a href="#">Sign Up</a></p>
         <a href="#">Forgot Password?</a>
       </div>
     </form>
@@ -82,11 +82,47 @@ input {
 .terma > input[type="checkbox"]:checked {
   background-color: red;
 }
-.buttons > button:first-child {
+.buttons > a {
   width: 50%;
   border-radius: 4px;
   background-color: #327b31;
   color: #ffffff;
+  text-decoration: none;
+}
+.buttons > a {
+  width: 50%;
+  border-radius: 4px;
+  background-color: #327b31;
+  color: #ffffff;
+  text-decoration: none;
+}
+.buttons > a {
+  width: 50%;
+  border-radius: 4px;
+  background-color: #327b31;
+  color: #ffffff;
+  text-decoration: none;
+}
+.buttons > a {
+  width: 50%;
+  border-radius: 4px;
+  background-color: #327b31;
+  color: #ffffff;
+  text-decoration: none;
+}
+.buttons > a {
+  width: 50%;
+  border-radius: 4px;
+  background-color: #327b31;
+  color: #ffffff;
+  text-decoration: none;
+}
+.buttons > a {
+  width: 50%;
+  border-radius: 4px;
+  background-color: #327b31;
+  color: #ffffff;
+  text-decoration: none;
 }
 .buttons > button:last-child {
   width: 50%;
@@ -123,8 +159,9 @@ section {
   form > div {
     width: 100%;
   }
-  .buttons > button {
+  .buttons > button, .buttons > a {
     width: 100% !important;
   }
+  
 }
 </style>
