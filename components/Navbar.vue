@@ -3,11 +3,13 @@
     <h1>Agri-Yum</h1>
 
     <div class="links center">
-      <a href="#" class="active">Home</a>
-      <a href="#">Products</a>
-      <a href="#">Recipes</a>
+      <a href="/Home" class="active">Home</a>
+      <a href="/ProductPage">Products</a>
+      <a href="#">Resources</a>
+      <a href="/FarmersMarket">Farmers Market</a>
+      <a href="#">About Us</a>
       <a href="#">Contact Us</a>
-      <a href="#">Blog</a>
+      <a href="/Blog">Blog</a>
     </div>
 
     <div class="buttons">
