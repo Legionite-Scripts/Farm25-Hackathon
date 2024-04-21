@@ -66,13 +66,13 @@
         <section class="two mb-3">
           <div class="pt-5">
             <h2 class="mb-1 mt-5">
-              <b> From Farm to Shelf, with Freshness You Can Taste:</b>
+              <b> The Power of Agritech:</b>
             </h2>
             <p class="mb-2">
-              We source our ingredients directly from rural farmers who
-              prioritize sustainable and responsible agricultural practices.<br />
-              This means you get the freshest produce, packed with nutrients and
-              flavor.
+              We harness the power of innovative technology to transform these
+              raw ingredients into delicious and convenient finished goods. This
+              translates to less waste, longer shelf life, and a wider variety
+              of healthy options for you.
             </p>
           </div>
           <img src="@/assets/images/Home/why-1.png" alt="" />
@@ -82,13 +82,13 @@
         <section class="mb-3">
           <div class="pt-5">
             <h2 class="mb-1 mt-5">
-              <b> From Farm to Shelf, with Freshness You Can Taste:</b>
+              <b>Bridging the Gap Between Farm and Table:</b>
             </h2>
             <p class="mb-2">
-              We source our ingredients directly from rural farmers who
-              prioritize sustainable and responsible agricultural practices.<br />
-              This means you get the freshest produce, packed with nutrients and
-              flavor.
+              Convenience for Busy Lives: We transform farm-fresh ingredients
+              into convenient finished goods that fit seamlessly into your busy
+              lifestyle. Enjoy the taste of fresh, healthy food without the
+              hassle.
             </p>
           </div>
           <img src="@/assets/images/Home/why-2.png" alt="" />
@@ -98,13 +98,13 @@
         <section class="four mb-3">
           <div class="pt-5">
             <h2 class="mb-1 mt-5">
-              <b> From Farm to Shelf, with Freshness You Can Taste:</b>
+              <b>Delicious & Nutritious: </b>
             </h2>
             <p class="mb-2">
-              We source our ingredients directly from rural farmers who
-              prioritize sustainable and responsible agricultural practices.<br />
-              This means you get the freshest produce, packed with nutrients and
-              flavor.
+              We don't compromise on taste. Our finished goods are not only good
+              for you, but they're also incredibly flavorful and satisfying.
+              Explore our wide variety of products and discover new ways to
+              incorporate healthy options into your meals.
             </p>
           </div>
           <img src="@/assets/images/Home/why-3.png" alt="" />
@@ -114,13 +114,13 @@
         <section class="mb-3">
           <div class="pt-5">
             <h2 class="mb-1 mt-5">
-              <b> From Farm to Shelf, with Freshness You Can Taste:</b>
+              <b>Agricultural Education: </b>
             </h2>
             <p class="mb-2">
-              We source our ingredients directly from rural farmers who
-              prioritize sustainable and responsible agricultural practices.<br />
-              This means you get the freshest produce, packed with nutrients and
-              flavor.
+              We intentionally share educational resources through our blog. At
+              Agri-Yum, we are raising a community of people who are aware and
+              make informed decisions about what they inject into their body as
+              food. flavor.
             </p>
           </div>
           <img src="@/assets/images/Home/why-4.png" alt="" />
