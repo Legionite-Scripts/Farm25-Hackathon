@@ -348,7 +348,6 @@ export default {
     font-size: 1em !important;
   }
   .why > section {
-    border: 1px solid #333;
     width: 100%;
     display: flex;
     flex-direction: column !important;
