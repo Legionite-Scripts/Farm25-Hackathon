@@ -1,40 +1,16 @@
 <template>
   <div class="wrapper">
-    <form class="p-5">
-      <h1 class="mb-4 text-center">Sign Up</h1>
-
-      <div class="mb-2">
-        <label for="f-name" class="mb-1"
-          >First Name <span>(Required)</span></label
-        >
-        <input type="text" placeholder="Legionite" required />
-      </div>
-      <div class="mb-2">
-        <label for="f-name" class="mb-1"
-          >Last Name <span>(Required)</span></label
-        >
-        <input type="text" placeholder="OluwaFatai" required />
-      </div>
-
+    <form class="p-5 center">
+      <h1 class="mb-4 text-center">Sign In</h1>
       <div class="mb-2">
         <label for="f-name" class="mb-1">Email <span>(Required)</span></label>
         <input type="email" placeholder="samuelonwuka88@gmail.com" required />
       </div>
-      <div class="mb-2">
+      <div class="mb-5">
         <label for="f-name" class="mb-1"
           >Password <span>(Required)</span></label
         >
         <input type="password" placeholder="********" required />
-      </div>
-      <div class="mb-2">
-        <label for="f-name" class="mb-1"
-          >Confirm Password <span>(Required)</span></label
-        >
-        <input type="password" placeholder="********" required />
-      </div>
-      <div class="terms center mb-3">
-        <input type="checkbox" />
-        <p>I accept <a href="#">Terms and conditions</a></p>
       </div>
 
       <div class="buttons center mb-3">
@@ -47,7 +23,7 @@
       </div>
 
       <div class="links center">
-        <p class="mb-2">Already have an account? <a href="#">Sign In</a></p>
+        <p class="mb-2">Don't have an account?  <a href="#">Sign Up</a></p>
         <a href="#">Forgot Password?</a>
       </div>
     </form>
@@ -68,10 +44,12 @@
 }
 form {
   width: 50%;
+  height: 100vh;
   background-color: #f9f9f9;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 form > div {
   display: flex;
@@ -124,7 +102,7 @@ input {
 }
 section {
   width: 50%;
-  background: url("@/assets/images/Home/formImg.png") no-repeat;
+  background: url("@/assets/images/Home/loginImg.png") no-repeat;
   background-size: cover;
 }
 .links > a,
