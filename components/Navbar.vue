@@ -1,6 +1,6 @@
 <template>
   <nav class="p-2 pr-5 pl-5 center">
-    <h1>Agri-Yum</h1>
+    <h1>Farmers-Haven</h1>
 
     <div class="links center">
       <a href="/Home" class="active">Home</a>

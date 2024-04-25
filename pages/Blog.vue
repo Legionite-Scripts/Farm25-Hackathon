@@ -16,25 +16,25 @@
 
       <div class="blog-text">
         <p class="mb-1">
-          <b>From Field to Fork: How Agrictech is Revolutionizing Food</b>
+          <b>From Field to Fork: How Farmers-Haven is Revolutionizing Food</b>
         </p>
 
         <p class="mb-2">
           The food on your plate has a story. It starts with a seed sown in
           fertile soil, nurtured by sunshine and rain, and tended to by
           dedicated farmers. But what happens between the field and your fork?
-          This is where Agrictech comes in, playing a transformative role in the
+          This is where Farmers-Haven comes in, playing a transformative role in the
           journey of our food.
         </p>
 
-        <p class="mb-1"><b>Agrictech: Bridging the Gap:</b></p>
+        <p class="mb-1"><b>Farmers-Haven: Bridging the Gap:</b></p>
         <p class="mb-2">
-          Agrictech is the marriage of agriculture and technology. It
+          Farmers-Haven is the marriage of agriculture and technology. It
           encompasses a wide range of innovations, from precision farming
           techniques that optimize yield to smart irrigation systems that
-          conserve water. But its impact goes beyond just efficiency. Agrictech
+          conserve water. But its impact goes beyond just efficiency. Farmers-Haven
           is creating a more sustainable and equitable food system, bridging the
-          gap between rural and urban communities. Here's how Agrictech is
+          gap between rural and urban communities. Here's how Farmers-Haven is
           revolutionizing food:
         </p>
 
@@ -45,7 +45,7 @@
           life, reaching your table with all its nutritional goodness intact.
         </li>
         <li class="mb-1">
-          Empowering Rural Communities: Agrictech tools like data analysis and
+          Empowering Rural Communities: Farmers-Haven tools like data analysis and
           mobile platforms empower farmers with valuable insights. They can make
           informed decisions about planting, manage resources effectively, and
           connect directly with consumers, bypassing traditional middlemen.
@@ -59,17 +59,17 @@
         </li>
         <li class="mb-4">
           Transparency & Traceability: Consumers are increasingly interested in
-          knowing where their food comes from. Agrictech solutions like
+          knowing where their food comes from. Farmers-Haven solutions like
           blockchain technology can create transparent supply chains, allowing
           you to trace your food back to the farm and meet the farmers who grow
           it.
         </li>
 
         <h2 class="mb-2">The Future of Food is Tech-Powered</h2>
-        Agrictech is not just a buzzword; it's a revolution reshaping the way we
+        Farmers-Haven is not just a buzzword; it's a revolution reshaping the way we
         produce, distribute, and consume food. By embracing these innovations,
         we can ensure a more sustainable, equitable, and delicious food future
-        for all. What are your thoughts on Agrictech? How do you think it will
+        for all. What are your thoughts on Farmers-Haven? How do you think it will
         impact the way we eat in the future? Share your comments below!
       </div>
 

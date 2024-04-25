@@ -39,13 +39,13 @@
       <div class="why center mb-5">
         <h1 class="mb-3">Why Choose Us?</h1>
         <p class="mb-2">
-          At <b>AGRI-YUM</b>, we're passionate about transforming farm-fresh
+          At <b>Farmers-Haven</b>, we're passionate about transforming farm-fresh
           produce into delicious and convenient finished goods. But we're more
           than just food innovators – we're bridge builders. We connect the
           dedication of rural and urban farmers with the needs of discerning
           consumers like you.
         </p>
-
+        
         <!-- First Section -->
         <section class="mb-3">
           <div class="pt-5">
@@ -118,7 +118,7 @@
             </h2>
             <p class="mb-2">
               We intentionally share educational resources through our blog. At
-              Agri-Yum, we are raising a community of people who are aware and
+              Farmers-Haven, we are raising a community of people who are aware and
               make informed decisions about what they inject into their body as
               food. flavor.
             </p>
@@ -136,7 +136,7 @@
           <div>
             <h2 class="mb-1">Love the Conveninence</h2>
             <p class="mb-1">
-              Love the convenience! Agri-Yum's products are a lifesaver for busy
+              Love the convenience! Farmers-Haven's products are a lifesaver for busy
               days. They're healthy, taste amazing, and I can whip up a<br />
               nutritious meal in minutes. Plus, knowing I'm supporting local
               farmers makes it even better.
@@ -155,7 +155,7 @@
             <p class="mb-1">
               I used to struggle to find healthy snacks that weren't loaded with
               processed ingredients.<br />
-              Agri-Yum's products are a game-changer. They're packed with flavor
+              Farmers-Haven's products are a game-changer. They're packed with flavor
               and perfect for satisfying cravings without the guilt.
             </p>
             <b> <i>Marv Magic</i></b>

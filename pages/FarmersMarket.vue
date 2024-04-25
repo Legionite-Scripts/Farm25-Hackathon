@@ -21,7 +21,7 @@
         </div>
 
         <p class="mb-5">
-          At <b>AGRI-YUM</b>, we're passionate about transforming farm-fresh
+          At <b>Farmers-Haven</b>, we're passionate about transforming farm-fresh
           produce into delicious and convenient finished goods. But we're more
           than just food innovators – we're bridge builders. We connect the
           dedication of rural and urban farmers with the needs of discerning
